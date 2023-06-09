@@ -19,3 +19,12 @@
 9 在终端输入命令 git pull 第一次拉取 
 
 10 新建第一个分支  git branch test
+
+11 使用checkout命令来更改分支。git checkout test   
+
+12 如果想将更改提交到主分支，则需切换回master分支，然后使用合并。
+git checkout master
+git merge test
+
+13 您想删除分支，我们使用-d标识  git branch -d test
+
